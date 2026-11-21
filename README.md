@@ -1,3 +1,5 @@
+![Docker benchmark](https://github.com/FIddo-tech/docker-thermal-benchmark/actions/workflows/docker-benchmark.yml/badge.svg)
+
 # Docker Thermal Benchmark
 
 A containerized scientific-computing benchmark: solve a 1D steady heat-conduction problem with temperature-dependent conductivity, then verify the answer with pytest against an exact analytic solution.
