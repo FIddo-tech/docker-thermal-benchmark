@@ -27,3 +27,9 @@ A containerized scientific-computing benchmark: solve a 1D steady heat-conductio
     export BENCH_OUTPUT_DIR=./out
     python solution/reference_solver.py
     python -m pytest tests/
+
+## Container run
+
+The image builds and passes all five checks inside Docker.
+
+![Container run](docs/docker-run.png)
